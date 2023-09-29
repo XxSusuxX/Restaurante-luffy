@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante Chapéu de Palha</title>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nabla&family=Pacifico&family=Quicksand&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <img
+          src="https://www.freepnglogos.com/uploads/one-piece-logo-2.jpg"
+          alt="One Piece"
+        />
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu-nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+          <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item fw-bold mx-1">
+              <a href="#sobre-restaurante" class="nav-link"
+                ><i class="bi bi-house-door me-2"></i>Sobre o restaurante</a
+              >
+            </li>
+            <li class="nav-item fw-bold mx-1">
+              <a href="#eventos" class="nav-link"
+                ><i class="bi bi-calendar-check me-2"></i>Eventos</a
+              >
+            </li>
+            <li class="nav-item fw-bold mx-1">
+              <a href="#cardapio" class="nav-link"
+                ><i class="bi bi-card-text me-2"></i>Nosso cardápio</a
+              >
+            </li>
+            <li class="nav-item fw-bold mx-1">
+              <a href="#fale-conosco" class="nav-link"
+                ><i class="bi bi-chat-left-text me-2"></i>Fale conosco</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-restaurante">
+      <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./images/slides/slide1.jpg" alt="" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./images/slides/slide2.jpg" alt="" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="./images/slides/slide3.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+      </div>
+      <div class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="/images/restaurante.jpg" />
+            </div>
+            <div class="col-md-7 mt-3 mt-md-0">
+              <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+              <p>
+                O restaurante do Luffy é um local icônico onde a aventura encontra a gastronomia. Situado em um ambiente náutico e acolhedor, oferece uma deliciosa culinária inspirada na jornada dos piratas do Chapéu de Palha. Saboreie pratos únicos e experimente a emoção de compartilhar refeições com a tripulação mais famosa dos mares.
+              </p>
+              <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+              <p>
+                O espaço do restaurante do Luffy de One Piece é verdadeiramente extraordinário, mergulhando os visitantes em um mundo de aventura e camaradagem. Algumas características importantes desse espaço incluem:
+              </p>
+              <ul>
+                <li><span class="fw-bold">Decoração Temática:</span> O restaurante apresenta uma decoração única com elementos náuticos, memorabilia de viagens e símbolos de pirataria que evocam a história da tripulação do Chapéu de Palha.</li>
+                <li><span class="fw-bold">Vista Oceânica:</span> Oferece vistas deslumbrantes do oceano, criando uma atmosfera serena e de alta aventura.</li>
+                <li><span class="fw-bold">Cardápio Variado:</span> O cardápio inclui pratos inspirados nas aventuras da tripulação, desde frutos do mar frescos até receitas exóticas.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center pb-3">Para todas <span class="text-colored">as ocasiões</span></h2>
+        </div>
+        <div class="row md-4">
+          <div class="col-md-4">
+            <img class="d-block w-100 rounded mb-2" src="/images/eventos/aniversario.jpg" alt="" >
+            <h3 class="section-title text-colored">
+              <i class="bi bi-calendar-heart-fill"></i>
+              Aniversários
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ullam voluptatibus, cupiditate sed debitis quaerat nam id asperiores vel ipsa, iste alias fuga sequi quasi totam animi! Eligendi, magni velit?
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img class="d-block w-100 rounded mb-2" src="./images/eventos/casamento.png" alt="" >
+            <h3 class="section-title text-colored">
+              <i class="bi bi-arrow-through-heart-fill"></i>
+              Recepção para casamentos
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ullam voluptatibus, cupiditate sed debitis quaerat nam id asperiores vel ipsa, iste alias fuga sequi quasi totam animi! Eligendi, magni velit?
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img class="d-block w-100 rounded mb-2" src="./images/eventos/confraternizacoes.png" alt="" >
+            <h3 class="section-title text-colored">
+              <i class="bi bi-people-fill"></i>
+              Confraternizações
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ullam voluptatibus, cupiditate sed debitis quaerat nam id asperiores vel ipsa, iste alias fuga sequi quasi totam animi! Eligendi, magni velit?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-5 pb-5" id="cardapio">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center mb-5">Nosso <span class="text-colored">cardápio</span></h2>
+        </div>
+        <div class="row">
+          <aside class="col-md-2">
+            <nav class="nav nav-pills flex-column nav-cardapio">
+              <button type="button" data-bs-toggle="tab" data-bs-target="#bedidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoólicas</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-com-alcool" class="fw-bold text-start nav-link text-colored">Bebidas alcoólicas</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos Principas</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored mb-3">Sobremesas</button>
+            </nav>
+          </aside>
+          <div class="col-md-10">
+            <div class="tab-content">
+              <div id="bedidas-sem-alcool" class="tab-pane active">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/bebidas/Coquetel da Grande Viagem.jpg">
+                    <h5 class="text-colored fw-bold">Coquetel da Grande Viagem</h5>
+                    <p>
+                      Uma mistura refrescante de suco de abacaxi, suco de laranja, suco de manga e um toque de limão, servido com gelo e decorado com fatias de frutas tropicais.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/bebidas/Soco da Floresta Verde.jpg">
+                    <h5 class="text-colored fw-bold">Soco da Floresta Verde</h5>
+                    <p>
+                      Uma bebida revigorante feita com suco de kiwi, hortelã fresca, limonada e água com gás, servida em um copo alto com cubos de gelo.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/bebidas/Luffy's Laranjada Espumante.webp">
+                    <h5 class="text-colored fw-bold">Luffy's Laranjada Espumante</h5>
+                    <p>
+                      Uma versão especial de laranjada com gás, incluindo suco de laranja fresco, soda limonada e uma rodela de laranja para enfeitar.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/bebidas/Nami's Blueberry Breeze.jpg">
+                    <h5 class="text-colored fw-bold">Nami's Blueberry Breeze</h5>
+                    <p>
+                      Um coquetel azul brilhante com suco de mirtilo, suco de limão, xarope de açúcar e água com gás, servido com gelo e uma fatia de limão.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/bebidas/Sanji's Sunrise Splash.jpg">
+                    <h5 class="text-colored fw-bold">Sanji's Sunrise Splash</h5>
+                    <p>
+                      Um coquetel tropical com suco de abacaxi, suco de maracujá, grenadine e água com gás, servido em um copo alto com uma cereja no topo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="bebidas-com-alcool" class="tab-pane">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/bebidas/Rum do Pirata do Chapéu de Palha.jpg">
+                    <h5 class="text-colored fw-bold">Rum do Pirata do Chapéu de Palha</h5>
+                    <p>
+                      Um rum especial com sabor de especiarias exóticas e toques de frutas tropicais, servido em um copo baixo com gelo e uma fatia de laranja.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/bebidas/Saké do Samurai Zoro.jpg">
+                    <h5 class="text-colored fw-bold">Saké do Samurai Zoro</h5>
+                    <p>
+                      Um autêntico saké japonês, servido em copos tradicionais de sakê quente ou frio, com um prato de sashimi ou sushi como acompanhamento.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/bebidas/Coquetel do Capitão Luffy.png">
+                    <h5 class="text-colored fw-bold">Coquetel do Capitão Luffy</h5>
+                    <p>
+                      Um coquetel frutado feito com rum, suco de abacaxi fresco, decorado com um guarda-chuva.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/bebidas/Grog do Bando do Chapéu de Palha.jpg">
+                    <h5 class="text-colored fw-bold">Grog do Bando do Chapéu de Palha</h5>
+                    <p>
+                      Uma bebida forte e picante que leva rum escuro, suco de limão e um toque de xarope de açúcar, servida em um copo alto com gelo.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/bebidas/Vinho da Navegadora Nami.jpg">
+                    <h5 class="text-colored fw-bold">Vinho da Navegadora Nami</h5>
+                    <p>
+                      Um autêntico saké japonês, servido em copos tradicionais de sakê quente ou frio, com um prato de sashimi ou sushi como acompanhamento.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/bebidas/Cerveja do Cozinheiro Sanji.jpg">
+                    <h5 class="text-colored fw-bold">Cerveja do Cozinheiro Sanji</h5>
+                    <p>
+                      Uma variedade de cervejas artesanais e importadas, perfeitas para acompanhar os pratos do restaurante, servidas em copos gelados.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="entradas" class="tab-pane">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/entradas/Tesouro do Mar Profundo.jpg">
+                    <h5 class="text-colored fw-bold">Tesouro do Mar Profundo</h5>
+                    <p>
+                      Camarões gigantes grelhados em manteiga de alho e ervas finas, servidos sobre uma cama de folhas verdes frescas e regados com um molho de limão e ervas exóticas.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/entradas/Navegadores de Sashimi.jpg">
+                    <h5 class="text-colored fw-bold">Navegadores de Sashimi</h5>
+                    <p>
+                      Uma seleção de sashimi fresco, incluindo atum, salmão e peixe-branco, dispostos artisticamente em um prato de pedra fria. Acompanha molho de soja, wasabi e gengibre em conserva.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/entradas/Croquetes do Cozinheiro Sanji.webp">
+                    <h5 class="text-colored fw-bold">Croquetes do Cozinheiro Sanji</h5>
+                    <p>
+                      Croquetes dourados e crocantes recheados com carne de caranguejo, servidos com um molho especial de coquetel de frutos do mar e uma pitada de limão.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="pratos-principais" class="tab-pane">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/pratos/Mariscos do Arquipélago dos Tritões.jpg">
+                    <h5 class="text-colored fw-bold">Mariscos do Arquipélago dos Tritões</h5>
+                    <p>
+                      Uma deliciosa mistura de frutos do mar frescos, como camarões, lagostas e vieiras, preparados em um molho à cebola e especiarias.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/pratos/Bife do Pirata Rei.jpg">
+                    <h5 class="text-colored fw-bold">Bife do Pirata Rei</h5>
+                    <p>
+                      Um suculento bife grelhado à perfeição, marinado com um molho secreto e servido com legumes sazonais.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/pratos/Tigela de Ramen do Sanji.jpg">
+                    <h5 class="text-colored fw-bold">Tigela de Ramen do Sanji</h5>
+                    <p>
+                      Uma tigela fumegante de ramen caseiro com caldo de porco, fatias de barriga de porco grelhadas, ovos cozidos a baixa temperatura e uma mistura de vegetais frescos.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/pratos/Tábua de Sushi do Navegador.jpg">
+                    <h5 class="text-colored fw-bold">Tábua de Sushi do Navegador</h5>
+                    <p>
+                      Um suculento bife grelhado à perfeição, marinado com um molho secreto e servido com legumes sazonais.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/pratos/Curry da Cozinheira Robin.jpg">
+                    <h5 class="text-colored fw-bold">Curry da Cozinheira Robin</h5>
+                    <p>
+                      Um prato aromático de curry com uma mistura de vegetais coloridos e pedaços de carne tenra, servido com arroz de jasmim.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="sobremesas" class="tab-pane">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/sobremesas/bolo.jpg">
+                    <h5 class="text-colored fw-bold">Bolo Tentação de Chocolate Duplo</h5>
+                    <p>
+                      Uma explosão de sabor para os fãs de chocolate! Massa branca, base de chocolate, cobertura de cacau e uma irresistível calda de chocolate.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100 my-1" src="./images/cardapio/sobremesas/cupcake.jpg">
+                    <h5 class="text-colored fw-bold">Bolinhos Celestiais de Chantilly e Morango</h5>
+                    <p>
+                      Pequenos tesouros doces! Nossos "Bolinhos Celestiais de Chantilly e Morango" são delicadas nuvens de chantilly sobre bases de bolo macio, coroados com morangos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-7 mb-5">
+            <form id="form">
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                <input name="nome" type="text" id="nome" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                <input name="email" type="email" id="email" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="tel" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                <input name="tel" type="tel" id="tel" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                <textarea name="msg" id="mensagem" class="form-control"></textarea>
+              </div>
+              <div id="msg-success" class="mb-12 my-4 d-none"><label class="fw-bold text-success">Agradecemos seu Contato</label></div>
+              <button type="submit" class="btn fw-bold">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi-hand-thumbs-up-fill"></i>
+                Redes Sociais
+              </h3>
+              <ul class="social-links">
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-facebook text-colored"></i>
+                  </a>
+                </li>
+                <li class="fs-5 mx-2">
+                  <a href="#">
+                    <i class="bi bi-instagram text-colored"></i>
+                  </a>
+                </li>
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-whatsapp text-colored"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="row mt-4">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-cursor-fill"></i>
+                Endereço
+              </h3>
+              <p>
+                Rua Teste Exemplo Nº 143, Bairro Bootstrap - São Paulo - SP
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/0.9.0/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="./lib/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./lib/additional-methods.min.js"></script>
+    <script type="text/javascript" src="./lib/localization/messages_pt_BR.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('#tel').mask('(00) 00000-0000');
+        var msgSuccess = document.getElementById("msg-success");
+        $('#form').validate({
+          rules:{
+            nome:{
+              required: true,
+              maxlength: 100,
+              minlength: 2,
+              minWords: 2
+            },
+            email:{
+              required: true,
+              email: true
+            },
+            tel:{
+              required: false
+            },
+            msg:{
+              required:true,
+              minWords: 5
+            }
+          },
+          submitHandler: function(form){
+            msgSuccess.classList.toggle('d-none');
+            setInterval(function(){
+              location.reload();
+            }, 3000);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
